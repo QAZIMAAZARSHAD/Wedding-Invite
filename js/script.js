@@ -6,7 +6,7 @@
       $('.sakura-falling').sakura();
 })(jQuery);
 
-$(function(){
+$(window).on( "load", function(){
     document.getElementById("my_audio").play();
     console.log('Shaadi Mein Zaroor Aana');
 });
