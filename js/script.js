@@ -6,9 +6,13 @@
       $('.sakura-falling').sakura();
 })(jQuery);
 
-window.onload = function() {
-    document.getElementById("my_audio").play();
-    console.log('Shaadi Mein Zaroor Aana');
+// $(document).on('click', function(){
+//     document.getElementById("my_audio").play();
+//     console.log('Shaadi Mein Zaroor Aana');
+// });
+
+$(document).ready(function() {
+    $("#my_audio").get(0).play();
 });
 
 // Set the date we're counting down to
