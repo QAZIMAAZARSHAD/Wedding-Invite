@@ -6,9 +6,9 @@
       $('.sakura-falling').sakura();
 })(jQuery);
 
-$(document).on('click', function(){
+$(function(){
     document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
+    console.log('Shaadi Mein Zaroor Aana');
 });
 
 // Set the date we're counting down to
